@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="slider-container">
+    <label for="slider">Que voulez-vous en puissance d’installation ? 🤔 </label>
+    <input type="range" role="slider" min="600" max="6000" value="3000" step="600" id="slider">
+    <ul class="ticks noselect" id="slider-labels">
+      <li data-value='600'>
+        <div class="tick"></div>
+        <div class="tick-label">600</div>
+      </li>
+      <li data-value='1200'>
+        <div class="tick"></div>
+        <div class="tick-label">1200</div>
+      </li>
+      <li data-value='1800'>
+        <div class="tick"></div>
+        <div class="tick-label">1800</div>
+      </li>
+      <li data-value='2400'>
+        <div class="tick"></div>
+        <div class="tick-label">2400</div>
+      </li>
+      <li data-value='3000'>
+        <div class="tick"></div>
+        <div class="tick-label">3000</div>
+      </li>
+      <li data-value='3600'>
+        <div class="tick"></div>
+        <div class="tick-label">3600</div>
+      </li>
+      <li data-value='4200'>
+        <div class="tick"></div>
+        <div class="tick-label">4200</div>
+      </li>
+      <li data-value='4800'>
+        <div class="tick"></div>
+        <div class="tick-label">4800</div>
+      </li>
+      <li data-value='5400'>
+        <div class="tick"></div>
+        <div class="tick-label">5400</div>
+      </li>
+      <li data-value='6000'>
+        <div class="tick"></div>
+        <div class="tick-label">6000</div>
+      </li>
+    </ul>
+    <p>La puissance du kit solaire sera de <span id="range-output"></span>.</p>
+  </div>
+  <script src="slider.js"></script>
+</body>
+
+</html>
