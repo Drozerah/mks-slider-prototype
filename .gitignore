@@ -4,6 +4,9 @@
 
 .DS_Store
 
+# Custom files
+docs.md
+
 ### Node ###
 # Logs
 logs
